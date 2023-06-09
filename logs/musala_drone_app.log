@@ -14,3 +14,7 @@ Fri 09-06-2023 07:21:18.925 INFO  - [  restartedMain] OptionalLiveReloadServer  
 Fri 09-06-2023 07:21:18.933 INFO  - [  restartedMain] Http11NioProtocol         : Starting ProtocolHandler ["http-nio-8228"]
 Fri 09-06-2023 07:21:18.946 INFO  - [  restartedMain] TomcatWebServer           : Tomcat started on port(s): 8228 (http) with context path ''
 Fri 09-06-2023 07:21:18.953 INFO  - [  restartedMain] TestApplication           : Started TestApplication in 2.329 seconds (JVM running for 3.093)
+Fri 09-06-2023 07:22:16.438 INFO  - [nio-8228-exec-1] [/]                       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+Fri 09-06-2023 07:22:16.438 INFO  - [nio-8228-exec-1] DispatcherServlet         : Initializing Servlet 'dispatcherServlet'
+Fri 09-06-2023 07:22:16.438 INFO  - [nio-8228-exec-1] DispatcherServlet         : Completed initialization in 0 ms
+Fri 09-06-2023 07:22:17.389 INFO  - [io-8228-exec-10] AbstractOpenApiResource   : Init duration for springdoc-openapi is: 390 ms
