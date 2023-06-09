@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @SuppressWarnings("deprecation")
-@OpenAPIDefinition(info = @Info(title = "OSB Mock API", version = "1.0", description = "OSB Mock Open API documentation"))
+@OpenAPIDefinition(info = @Info(title = "Seerbit Test API", version = "1.0", description = "Seerbit Test API Documentation"))
 public class OpenApiDoc extends WebMvcConfigurerAdapter {
 
 	@Override
