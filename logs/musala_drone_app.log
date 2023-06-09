@@ -1,0 +1,16 @@
+Fri 09-06-2023 07:21:16.898 INFO  - [kground-preinit] Version                   : HV000001: Hibernate Validator 6.1.6.Final
+Fri 09-06-2023 07:21:16.931 INFO  - [  restartedMain] TestApplication           : Starting TestApplication using Java 1.8.0_221 on Peter with PID 17040 (C:\Users\chukw\Documents\IntelliJProjects\test\test\target\classes started by chukw in C:\Users\chukw\Documents\IntelliJProjects\test)
+Fri 09-06-2023 07:21:16.934 INFO  - [  restartedMain] TestApplication           : No active profile set, falling back to default profiles: default
+Fri 09-06-2023 07:21:17.108 INFO  - [  restartedMain] DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+Fri 09-06-2023 07:21:17.109 INFO  - [  restartedMain] DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Fri 09-06-2023 07:21:18.155 INFO  - [  restartedMain] TomcatWebServer           : Tomcat initialized with port(s): 8228 (http)
+Fri 09-06-2023 07:21:18.167 INFO  - [  restartedMain] Http11NioProtocol         : Initializing ProtocolHandler ["http-nio-8228"]
+Fri 09-06-2023 07:21:18.167 INFO  - [  restartedMain] StandardService           : Starting service [Tomcat]
+Fri 09-06-2023 07:21:18.167 INFO  - [  restartedMain] StandardEngine            : Starting Servlet engine: [Apache Tomcat/9.0.41]
+Fri 09-06-2023 07:21:18.234 INFO  - [  restartedMain] [/]                       : Initializing Spring embedded WebApplicationContext
+Fri 09-06-2023 07:21:18.234 INFO  - [  restartedMain] ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1124 ms
+Fri 09-06-2023 07:21:18.470 INFO  - [  restartedMain] ThreadPoolTaskExecutor    : Initializing ExecutorService 'applicationTaskExecutor'
+Fri 09-06-2023 07:21:18.925 INFO  - [  restartedMain] OptionalLiveReloadServer  : LiveReload server is running on port 35729
+Fri 09-06-2023 07:21:18.933 INFO  - [  restartedMain] Http11NioProtocol         : Starting ProtocolHandler ["http-nio-8228"]
+Fri 09-06-2023 07:21:18.946 INFO  - [  restartedMain] TomcatWebServer           : Tomcat started on port(s): 8228 (http) with context path ''
+Fri 09-06-2023 07:21:18.953 INFO  - [  restartedMain] TestApplication           : Started TestApplication in 2.329 seconds (JVM running for 3.093)

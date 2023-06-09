@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+
+		<Property name="LOG_PATTERN">
+			%d{E dd-MM-yyyy HH:mm:ss.SSS} %-5p - [%15.15t] %-25c{0} : %m%n%ex
+		</Property>
+		<Property name="ROOT_DIR"
+			value="./logs" />
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+
+		<RollingFile name="RollingFile"
+			fileName="${ROOT_DIR}\musala_drone_app.log"
+			filePattern="${ROOT_DIR}\musala_drone_app-%d{dd-MM-yyyy}-%i.log.gz">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="100 MB" />
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<AsyncLogger name="com.musala.devops" level="info"
+			additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFile" />
+		</AsyncLogger>
+		<Root level="info" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+	</Loggers>
+</Configuration>
