@@ -32,12 +32,6 @@
 			</exclusions>
 		</dependency>
 
-		<!-- Starter log4j2 for asynchronous logging -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-log4j2</artifactId>
-		</dependency>
-
 		<!-- JSOUP dependency for @SafeHtml usage -->
 		<dependency>
 			<groupId>org.jsoup</groupId>
@@ -86,12 +80,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Disruptor dependency for asynchronous logging -->
-		<dependency>
-			<groupId>com.lmax</groupId>
-			<artifactId>disruptor</artifactId>
-			<version>3.3.6</version>
-		</dependency>
 	</dependencies>
 
 	<build>
